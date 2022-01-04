@@ -1,0 +1,125 @@
+body {
+    font-size: 15px;
+    margin: 50px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    font-family: 'Quantico', sans-serif;
+   
+  }
+
+
+
+
+
+.card {
+    display: grid;
+    background: #84DFFF;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    grid-gap: 3px;
+    grid-template-columns: 200px 400px;
+    grid-template-rows: 65px 225px;
+    
+    
+    grid-template-areas: "image details"
+                        "image text";
+    
+    
+  
+  
+
+}
+
+.card-left-side {
+    grid-area: text;
+    position: relative;
+    background: #1597E5;
+    color: White;
+    border-bottom-right-radius: 15px;
+
+
+
+}
+
+
+.card-left-side h1 {
+  font-size: 21px;
+  text-align: center;
+  padding: 4px;
+}
+
+.card-left-side p {
+  font-size: 16px;
+  text-align: left;
+  margin-left: 7px;
+    
+}
+
+.card-right-side {
+    grid-area: image;
+    background: white url(images/landscape.png) no-repeat center / cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+   
+}
+
+
+
+
+.publication-details {
+    position: relative;
+    grid-area: details;
+    background: #3D56B2;
+    border-top-right-radius: 15px;
+    
+   
+    
+}
+
+.publication-details .author {
+  position: absolute;
+  left: 30px;
+  top: 10px;
+}
+
+.publication-details .date {
+  position: absolute;
+  color: white;
+  left: 60px;
+  bottom: 10px;
+}
+
+.publication-details img {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  
+}
+
+
+.card-left-side .card-button {
+
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+  
+ 
+}
+
+.card-left-side button {
+  width: 100px;
+  height: 20px;
+  
+}
+
+.card-left-side a {
+  text-decoration: none;
+  
+}
