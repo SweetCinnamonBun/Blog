@@ -91,3 +91,11 @@ body {
     
 
 }
+
+.input-label h5 {
+    color: black;
+    font-weight: 200;
+    font-size: 15px;
+    text-align: center;
+    margin: 0;
+}
